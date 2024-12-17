@@ -76,3 +76,19 @@ button {
     margin: 10px 0;
 }
 
+/* ESTILIZAÇÃO DO FOOTER DO CARD */
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-footer img {
+    width: 2.5rem;
+}
+
+.card-footer p {
+    font-weight: 800;
+    padding-left: 50px;
+}
