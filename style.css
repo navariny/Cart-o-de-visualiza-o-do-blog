@@ -1,6 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 42%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: "Figtree", serif;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* CONTAINER DO CARD */
+
+.container {
+    width: 450px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 7%);
+}
+
+/* ESTILIZAÇÃO CARD */
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+/* PRIMEIRA IMG DO CARD */
+
+.img-blog-preview {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* TEXTO CARD */
+
+.text {
+    padding: 1rem 0;
+}
+
+/* BUTÃO DO CARD */
+
+button {
+    width: auto;
+    background-color: hsl(47, 88%, 63%);
+    border-style: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    font-weight: 800;
+}
+
+/* ESTILIZAÇÃO DO TEXTO */
+
+.text h1,
+.text p {
+    margin: 10px 0;
+}
+
